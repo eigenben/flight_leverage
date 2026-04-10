@@ -1,0 +1,11 @@
+---
+const startYear = 2011;
+const currentYear = new Date().getFullYear();
+const yearRange = currentYear === startYear ? `${startYear}` : `${startYear}–${currentYear}`;
+---
+
+<footer class="border-t border-gray-200 mt-16">
+  <div class="max-w-3xl mx-auto px-6 py-8 text-center text-sm text-gray-500">
+    <p>&copy; {yearRange} Ben Hughes. All rights reserved.</p>
+  </div>
+</footer>
